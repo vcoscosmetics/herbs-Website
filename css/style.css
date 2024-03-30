@@ -17,7 +17,7 @@ html {
   transition: 0.3s;
 }
 
-body{
+body {
   font-family: "poppins";
   animation: transitionIn 0.7s;
 }
@@ -75,7 +75,7 @@ body{
 .navBar {
   width: 100%;
   overflow: hidden;
-  
+
 }
 
 .navBar .nav-upper {
@@ -289,10 +289,9 @@ body{
 .service-types .container .wrapper .box .image {
   position: relative;
   max-width: 20rem;
-  max-height: 15rem;
+  max-height: 11rem;
   transition: 0.3s ease;
   margin-bottom: 1rem;
-
 }
 
 .service-types .container .wrapper .box .image img {
@@ -803,7 +802,7 @@ About Page */
 .category {
   width: 20%;
   margin-top: 2rem;
-  
+
 }
 
 .hide {
