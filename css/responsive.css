@@ -596,6 +596,46 @@
     padding: 3rem 2rem;
 }
 
+
+.page-information {
+    margin: 0 5rem;
+    margin-top: 2rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.about-us-main .grid-container {
+   
+    gap: 2rem;
+    width: 85%;
+}
+
+
+.about-us-main .grid-container .image-section {
+    margin-top: 1rem;
+}
+
+.about-us-main .grid-container .info-section{
+    text-align: justify;
+} 
+
+.about-us-main-2 .grid-container .info-section{
+    text-align: justify;
+} 
+
+
+.about-us-main-2 .grid-container {
+   
+    gap: 2rem;
+    width: 85%;
+}
+
+
+.about-us-main-2 .grid-container .image-section{
+    margin-top: 1rem;
+}
+
+
 }
 
 
