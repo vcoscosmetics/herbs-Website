@@ -115,9 +115,6 @@ body {
   padding: 1.5rem 0;
   background-color: #f8f8f8;
   box-shadow: 0px 5px 20px 1px lightgray;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 
 }
 
