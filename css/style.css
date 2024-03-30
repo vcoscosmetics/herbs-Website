@@ -524,7 +524,7 @@ Vision Section */
 }
 
 .product-section .container .product-section-info {
-  text-align: left;
+  text-align: justify;
   max-width: 75%;
   margin-bottom: 3rem;
   font-size: 0.95rem;
@@ -1029,14 +1029,13 @@ About Page */
 .modal-content .product-info .fourth button {
   padding: 0.5rem 2.5rem;
   gap: 1rem;
-  /* margin:0 3rem ; */
   margin-top: 1rem;
-
   font-size: 1.5rem;
   border: none;
   font-weight: 300;
   transition: 0.3s;
 }
+
 
 .modal-content .product-info .fourth button:hover {
   scale: 1.07;

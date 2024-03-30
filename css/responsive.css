@@ -643,6 +643,13 @@
     html{
         font-size: 135%;
     }
+
+
+
+    .modal-content .product-info .fourth button{
+        margin-right: 1rem;
+        
+    }
 }
 
 
