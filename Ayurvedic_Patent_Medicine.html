@@ -1,735 +1,674 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-            rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
-        <title>Document</title>
-    </head>
+    <link rel="stylesheet" href="css/responsive.css">
 
-    <body>
-        <a href="contact.html">
-            <div class="enquiry-button">
-               <p>Enquiry</p> 
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="contact.html">
+        <div class="enquiry-button">
+            <p>Enquiry</p>
+        </div>
+    </a>
+    <section class="navBar">
+        <div class="nav-upper">
+            <div class="left">
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    ayurvedavinayak@gmail.com
+                </p>
+                <p>|</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9870579944</p>
             </div>
-        </a>
-        <section class="navBar">
-            <div class="nav-upper">
-                <div class="left">
-                    <p>
-                        <i class="fa-solid fa-envelope"></i>
-                        ayurvedavinayak@gmail.com
-                    </p>
-                    <p>|</p>
-                    <p><i class="fa-solid fa-phone"></i> +91 9870579944</p>
-                </div>
-                <div class="right">
-                    <ul>
-                        <li>
-                            <a><i class="fa-brands fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://www.instagram.com/vinayak.ayurveda/"><i
-                                    class="fa-brands fa-instagram"></i></a>
-                        </li>
-                        <li>
-                            <a><i class="fa-brands fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a><i class="fa-brands fa-whatsapp"></i></a>
-                        </li>
-                    </ul>
+            <div class="right">
+                <ul>
+                    <li>
+                        <a><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/vinayak.ayurveda/"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a><i class="fa-brands fa-whatsapp"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container sticky">
+            <div class="nav-left">
+                <a href="index.html"><img src="images/logo.jpg" alt /></a>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li>
+                        <a href="Ayurvedic_Classical_Medicine.html">Ayurvedic
+                            Classical Medicine</a>
+                    </li>
+                    <li>
+                        <a href="Ayurvedic_Patent_Medicine.html">Ayurvedic
+                            Patent Medicine</a>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="product-page-heading">Product</h1>
+
+    <section class="product-page">
+
+        <div class="container">
+
+            <div class="category">
+                <div class="category-wrapper filter-buttons">
+                    <p>All Category</p>
+
+                    <button class="active" data-name="all">All</button>
+                    <button data-name="category1">Ayurvedic Balm</button>
+                    <button data-name="category2">Ayurvedic Drops</button>
+                    <button data-name="category3">Ayurvedic
+                        Ointment</button>
+                    <button data-name="category4">Ayurvedic Patent
+                        Capsules</button>
+                    <button data-name="category5">Ayurvedic Patent
+                        Oil</button>
+                    <button data-name="category6"> Ayurvedic Patent Tablets
+                    </button>
+
                 </div>
             </div>
-            <div class="container sticky">
-                <div class="nav-left">
-                    <a href="index.html"><img src="images/logo.jpg"
-                            alt /></a>
+            <div class="wrapper">
+                <div class="box openModalBtn card" id="image" data-name="category1">
+                    <div class="product-image">
+                        <img src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
+                            alt>
+
+                    </div>
+                    <p>Ayurvedic Balm</p>
+
                 </div>
-                <div class="nav-right">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li>
-                            <a
-                                href="Ayurvedic_Classical_Medicine.html">Ayurvedic
-                                Classical Medicine</a>
-                        </li>
-                        <li>
-                            <a
-                                href="Ayurvedic_Patent_Medicine.html">Ayurvedic
-                                Patent Medicine</a>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+
+                <div id="myModal1" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="product-info">
+                            <div class="content first">
+
+                                <h1>Avipattikar Churna</h1>
+
+                            </div>
+                            <div class="content second">
+
+                                <div class="image">
+                                    <img src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
+                                        alt>
+                                </div>
+
+                            </div>
+                            <div class="content third">
+                                <p><b>Description:</b> Avipattikar Churna is
+                                    an Ayurvedic Formulation that is used to
+                                    get relief from many kinds of Digestive
+                                    problems like balances the digestive
+                                    fire and eliminates natural toxins from
+                                    the system. It effectively solves
+                                    various symptoms of weak digestion such
+                                    as flatulence, bloating and more.
+                                    Avipattikar Powder acts as Laxative,
+                                    carminative, cholagogue, useful in
+                                    managing hyperacidity, heartburn,
+                                    biliousness, vomiting, indigestion,
+                                    dropsy, rheumatism, and digestive
+                                    disorders of the Pitta type.
+                                </p>
+                                <table>
+                                    <tr>
+                                        <th class="table-content">Packaging:</th>
+                                        <td class="table-content">Packet</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="table-content">Form:</th>
+                                        <td class="table-content">Powder</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="table-content">Pack
+                                            Size:</th>
+                                        <td class="table-content">75g</td>
+                                    </tr>
+                                </table>
+
+                                <p style="margin: 4rem 0;"><b>Benifits:</b>
+                                    Avipattikar Churna, an Ayurvedic blend,
+                                    aids digestion, relieves acidity, and
+                                    eases constipation. Its natural formula
+                                    detoxifies, balances doshas, and
+                                    enhances appetite. With minimal side
+                                    effects, it offers relief from gastric
+                                    discomforts, supports weight management,
+                                    and promotes overall well-being through
+                                    gentle, effective digestive support.
+                                </p>
+
+                            </div>
+
+                            <div class="content fourth">
+                                <button><i class="fa-sharp fa-solid fa-phone"></i>
+                                    Call</button>
+                                <button><i class="fa-regular fa-paper-plane"></i>
+                                    Enquiry</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
 
-        <h1 class="product-page-heading">Product</h1>
+                <div class="box openModalBtn card" id="image" data-name="category2">
+                    <div class="product-image">
+                        <img src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
+                            alt>
 
-        <section class="product-page">
+                    </div>
+                    <p>Ayurvedic Drops</p>
 
-            <div class="container">
+                </div>
 
-                <div class="category">
-                    <div class="category-wrapper filter-buttons">
-                        <p>All Category</p>
+                <div id="myModal2" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="product-info">
+                            <div class="content first">
 
-                        <button class="active" data-name="all">All</button>
-                        <button data-name="category1">Ayurvedic Balm</button>
-                        <button data-name="category2">Ayurvedic Drops</button>
-                        <button data-name="category3">Ayurvedic
-                            Ointment</button> 
-                        <button data-name="category4">Ayurvedic Patent
-                            Capsules</button>
-                        <button data-name="category5">Ayurvedic Patent
-                            Oil</button>
-                        <button data-name="category6"> Ayurvedic Patent Tablets
-                        </button>
+                                <h1>Raktashodhak Syrup</h1>
 
+                            </div>
+                            <div class="content second">
+
+                                <div class="image">
+                                    <img src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
+                                        alt>
+                                </div>
+
+                            </div>
+                            <div class="content third">
+                                <p><b>Description:</b> The syrups shows
+                                    great results for skin infections,
+                                    Urticaria, Pimples, Acne, Eczema, and
+                                    Skin Rash. Rakstasodhak Syrup is an
+                                    excellent Blood Purifier as it restores
+                                    normalcy of skin and clears toxins which
+                                    help in removing blemishes, dark sports
+                                    and allergies from the skin. It also
+                                    improves quality of blood that helps in
+                                    restoring your immunity system.
+                                </p>
+                                <table>
+                                    <tr>
+                                        <th class="table-content">Packaging:</th>
+                                        <td class="table-content">Packet</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="table-content">Form:</th>
+                                        <td class="table-content">Powder</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="table-content">Pack
+                                            Size:</th>
+                                        <td class="table-content">75g</td>
+                                    </tr>
+                                </table>
+
+                                <p style="margin: 4rem 0;"><b>Benifits:</b>
+                                    Raktashodhak Syrup, an Ayurvedic remedy,
+                                    purifies blood, promoting overall
+                                    health. Its benefits include
+                                    detoxification, enhancing liver
+                                    function, improving skin health,
+                                    reducing acne and blemishes, regulating
+                                    blood pressure, boosting immunity, and
+                                    aiding in digestion. It's a natural
+                                    solution for blood purification,
+                                    ensuring vitality and wellness.
+                                </p>
+
+                            </div>
+
+                            <div class="content fourth">
+                                <button><i class="fa-sharp fa-solid fa-phone"></i>
+                                    Call</button>
+                                <button><i class="fa-regular fa-paper-plane"></i>
+                                    Enquiry</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="wrapper">
-                    <div class="box openModalBtn card" id="image"
-                        data-name="category1">
-                        <div class="product-image">
-                            <img
-                                src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
-                                alt>
 
-                        </div>
-                        <p>Ayurvedic Balm</p>
+                <div class="box openModalBtn card" id="image" data-name="category3">
+                    <div class="product-image">
+                        <img src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
+                            alt>
 
                     </div>
+                    <p>Ayurvedic Ointment</p>
 
-                    <div id="myModal1" class="modal">
-                        <div class="modal-content">
-                            <span class="close">&times;</span>
-                            <div class="product-info">
-                                <div class="content first">
+                </div>
 
-                                    <h1>Avipattikar Churna</h1>
+                <div id="myModal3" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="product-info">
+                            <div class="content first">
 
-                                </div>
-                                <div class="content second">
+                                <h1>Shankhpushpi Syrup</h1>
 
-                                    <div class="image">
-                                        <img
-                                            src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
-                                            alt>
-                                    </div>
+                            </div>
+                            <div class="content second">
 
-                                </div>
-                                <div class="content third">
-                                    <p><b>Description:</b> Avipattikar Churna is
-                                        an Ayurvedic Formulation that is used to
-                                        get relief from many kinds of Digestive
-                                        problems like balances the digestive
-                                        fire and eliminates natural toxins from
-                                        the system. It effectively solves
-                                        various symptoms of weak digestion such
-                                        as flatulence, bloating and more.
-                                        Avipattikar Powder acts as Laxative,
-                                        carminative, cholagogue, useful in
-                                        managing hyperacidity, heartburn,
-                                        biliousness, vomiting, indigestion,
-                                        dropsy, rheumatism, and digestive
-                                        disorders of the Pitta type.
-                                    </p>
-                                    <table>
-                                        <tr>
-                                            <th
-                                                class="table-content">Packaging:</th>
-                                            <td
-                                                class="table-content">Packet</td>
-                                        </tr>
-                                        <tr>
-                                            <th class="table-content">Form:</th>
-                                            <td
-                                                class="table-content">Powder</td>
-                                        </tr>
-                                        <tr>
-                                            <th class="table-content">Pack
-                                                Size:</th>
-                                            <td class="table-content">75g</td>
-                                        </tr>
-                                    </table>
-
-                                    <p style="margin: 4rem 0;"><b>Benifits:</b>
-                                        Avipattikar Churna, an Ayurvedic blend,
-                                        aids digestion, relieves acidity, and
-                                        eases constipation. Its natural formula
-                                        detoxifies, balances doshas, and
-                                        enhances appetite. With minimal side
-                                        effects, it offers relief from gastric
-                                        discomforts, supports weight management,
-                                        and promotes overall well-being through
-                                        gentle, effective digestive support.
-                                    </p>
-
+                                <div class="image">
+                                    <img src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
+                                        alt>
                                 </div>
 
-                                <div class="content fourth">
-                                    <button><i
-                                            class="fa-sharp fa-solid fa-phone"></i>
-                                        Call</button>
-                                    <button><i
-                                            class="fa-regular fa-paper-plane"></i>
-                                        Enquiry</button>
-                                </div>
+                            </div>
+                            <div class="content third">
+                                <p><b>Description:</b>
+                                    Shankhpushpi Syrup, derived from the
+                                    Shankhpushpi plant, is an Ayurvedic
+                                    tonic known for enhancing cognitive
+                                    function and promoting mental clarity.
+                                    It aids in reducing stress, anxiety, and
+                                    insomnia while improving memory and
+                                    concentration. This herbal syrup
+                                    supports overall brain health, making it
+                                    a natural remedy for mental wellness.
+                                </p>
+                                <table>
+                                    <tr>
+                                        <th class="table-content">Packaging:</th>
+                                        <td class="table-content">Packet</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="table-content">Form:</th>
+                                        <td class="table-content">Powder</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="table-content">Pack
+                                            Size:</th>
+                                        <td class="table-content">75g</td>
+                                    </tr>
+                                </table>
+
+                                <p style="margin: 4rem 0;"><b>Benifits:</b>
+                                    it enhances cognitive function, improves
+                                    memory and concentration, reduces stress
+                                    and anxiety, promotes better sleep
+                                    quality, boosts brain health, and
+                                    supports overall mental well-being. With
+                                    its natural formulation derived from the
+                                    Shankhpushpi plant, it serves as a
+                                    holistic solution for optimizing
+                                    cognitive performance and emotional
+                                    balance.
+                                </p>
+
+                            </div>
+
+                            <div class="content fourth">
+                                <button><i class="fa-sharp fa-solid fa-phone"></i>
+                                    Call</button>
+                                <button><i class="fa-regular fa-paper-plane"></i>
+                                    Enquiry</button>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="box openModalBtn card" id="image"
-                        data-name="category2">
-                        <div class="product-image">
-                            <img
-                                src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
-                                alt>
-
-                        </div>
-                        <p>Ayurvedic Drops</p>
+                <div class="box openModalBtn card" id="image" data-name="category4">
+                    <div class="product-image">
+                        <img src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
+                            alt>
 
                     </div>
+                    <p>Ayurvedic Patent Capsules</p>
 
-                    <div id="myModal2" class="modal">
-                        <div class="modal-content">
-                            <span class="close">&times;</span>
-                            <div class="product-info">
-                                <div class="content first">
+                </div>
 
-                                    <h1>Raktashodhak Syrup</h1>
+                <div id="myModal4" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="product-info">
+                            <div class="content first">
 
-                                </div>
-                                <div class="content second">
+                                <h1>Arjun Terminalia Arjuna Powder</h1>
 
-                                    <div class="image">
-                                        <img
-                                            src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
-                                            alt>
-                                    </div>
+                            </div>
+                            <div class="content second">
 
-                                </div>
-                                <div class="content third">
-                                    <p><b>Description:</b> The syrups shows
-                                        great results for skin infections,
-                                        Urticaria, Pimples, Acne, Eczema, and
-                                        Skin Rash. Rakstasodhak Syrup is an
-                                        excellent Blood Purifier as it restores
-                                        normalcy of skin and clears toxins which
-                                        help in removing blemishes, dark sports
-                                        and allergies from the skin. It also
-                                        improves quality of blood that helps in
-                                        restoring your immunity system.
-                                    </p>
-                                    <table>
-                                        <tr>
-                                            <th
-                                                class="table-content">Packaging:</th>
-                                            <td
-                                                class="table-content">Packet</td>
-                                        </tr>
-                                        <tr>
-                                            <th class="table-content">Form:</th>
-                                            <td
-                                                class="table-content">Powder</td>
-                                        </tr>
-                                        <tr>
-                                            <th class="table-content">Pack
-                                                Size:</th>
-                                            <td class="table-content">75g</td>
-                                        </tr>
-                                    </table>
-
-                                    <p style="margin: 4rem 0;"><b>Benifits:</b>
-                                        Raktashodhak Syrup, an Ayurvedic remedy,
-                                        purifies blood, promoting overall
-                                        health. Its benefits include
-                                        detoxification, enhancing liver
-                                        function, improving skin health,
-                                        reducing acne and blemishes, regulating
-                                        blood pressure, boosting immunity, and
-                                        aiding in digestion. It's a natural
-                                        solution for blood purification,
-                                        ensuring vitality and wellness.
-                                    </p>
-
+                                <div class="image">
+                                    <img src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
+                                        alt>
                                 </div>
 
-                                <div class="content fourth">
-                                    <button><i
-                                            class="fa-sharp fa-solid fa-phone"></i>
-                                        Call</button>
-                                    <button><i
-                                            class="fa-regular fa-paper-plane"></i>
-                                        Enquiry</button>
-                                </div>
+                            </div>
+                            <div class="content third">
+                                <p><b>Description:</b> Arjun (Terminalia
+                                    arjuna) powder is derived from the bark
+                                    of the Arjuna tree, widely used in
+                                    Ayurveda. It's renowned for its
+                                    cardiovascular benefits, supporting
+                                    heart health by strengthening cardiac
+                                    muscles, regulating blood pressure, and
+                                    improving circulation. Additionally, it
+                                    aids in managing cholesterol levels and
+                                    promoting overall cardiovascular
+                                    wellness.
+                                </p>
+                                <table>
+                                    <tr>
+                                        <th class="table-content">Packaging:</th>
+                                        <td class="table-content">Packet</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="table-content">Form:</th>
+                                        <td class="table-content">Powder</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="table-content">Pack
+                                            Size:</th>
+                                        <td class="table-content">75g</td>
+                                    </tr>
+                                </table>
+
+                                <p style="margin: 4rem 0;"><b>Benifits:</b>
+                                    Arjuna powder benefits include
+                                    cardiovascular support by strengthening
+                                    heart muscles and regulating blood
+                                    pressure. It aids in managing
+                                    cholesterol levels, exhibits antioxidant
+                                    and anti-inflammatory properties,
+                                    supports digestion, may help in diabetes
+                                    management, promotes wound healing, and
+                                    offers stress relief, contributing to
+                                    overall health and wellness.
+
+                                </p>
+
+                            </div>
+
+                            <div class="content fourth">
+                                <button><i class="fa-sharp fa-solid fa-phone"></i>
+                                    Call</button>
+                                <button><i class="fa-regular fa-paper-plane"></i>
+                                    Enquiry</button>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="box openModalBtn card" id="image"
-                        data-name="category3">
-                        <div class="product-image">
-                            <img
-                                src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
-                                alt>
-
-                        </div>
-                        <p>Ayurvedic Ointment</p>
+                <div class="box openModalBtn card" id="image" data-name="category5">
+                    <div class="product-image">
+                        <img src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
+                            alt>
 
                     </div>
+                    <p>Ayurvedic Patent Oil</p>
 
-                    <div id="myModal3" class="modal">
-                        <div class="modal-content">
-                            <span class="close">&times;</span>
-                            <div class="product-info">
-                                <div class="content first">
+                </div>
 
-                                    <h1>Shankhpushpi Syrup</h1>
+                <div id="myModal5" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="product-info">
+                            <div class="content first">
 
-                                </div>
-                                <div class="content second">
+                                <h1>Ashwagandha Withania Somnifera
+                                    Powder</h1>
 
-                                    <div class="image">
-                                        <img
-                                            src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
-                                            alt>
-                                    </div>
+                            </div>
+                            <div class="content second">
 
-                                </div>
-                                <div class="content third">
-                                    <p><b>Description:</b>
-                                        Shankhpushpi Syrup, derived from the
-                                        Shankhpushpi plant, is an Ayurvedic
-                                        tonic known for enhancing cognitive
-                                        function and promoting mental clarity.
-                                        It aids in reducing stress, anxiety, and
-                                        insomnia while improving memory and
-                                        concentration. This herbal syrup
-                                        supports overall brain health, making it
-                                        a natural remedy for mental wellness.
-                                    </p>
-                                    <table>
-                                        <tr>
-                                            <th
-                                                class="table-content">Packaging:</th>
-                                            <td
-                                                class="table-content">Packet</td>
-                                        </tr>
-                                        <tr>
-                                            <th class="table-content">Form:</th>
-                                            <td
-                                                class="table-content">Powder</td>
-                                        </tr>
-                                        <tr>
-                                            <th class="table-content">Pack
-                                                Size:</th>
-                                            <td class="table-content">75g</td>
-                                        </tr>
-                                    </table>
-
-                                    <p style="margin: 4rem 0;"><b>Benifits:</b>
-                                        it enhances cognitive function, improves
-                                        memory and concentration, reduces stress
-                                        and anxiety, promotes better sleep
-                                        quality, boosts brain health, and
-                                        supports overall mental well-being. With
-                                        its natural formulation derived from the
-                                        Shankhpushpi plant, it serves as a
-                                        holistic solution for optimizing
-                                        cognitive performance and emotional
-                                        balance.
-                                    </p>
-
+                                <div class="image">
+                                    <img src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
+                                        alt>
                                 </div>
 
-                                <div class="content fourth">
-                                    <button><i
-                                            class="fa-sharp fa-solid fa-phone"></i>
-                                        Call</button>
-                                    <button><i
-                                            class="fa-regular fa-paper-plane"></i>
-                                        Enquiry</button>
-                                </div>
+                            </div>
+                            <div class="content third">
+                                <p><b>Description:</b>
+                                    Ashwagandha (Withania somnifera) powder
+                                    is derived from the roots of the
+                                    Ashwagandha plant, a revered herb in
+                                    Ayurveda. It's known for its adaptogenic
+                                    properties, aiding the body in coping
+                                    with stress and promoting balance.
+                                    Ashwagandha powder also boosts immunity,
+                                    enhances energy levels, improves
+                                    cognitive function, and supports overall
+                                    well-being.
+
+                                </p>
+                                <table>
+                                    <tr>
+                                        <th class="table-content">Packaging:</th>
+                                        <td class="table-content">Packet</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="table-content">Form:</th>
+                                        <td class="table-content">Powder</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="table-content">Pack
+                                            Size:</th>
+                                        <td class="table-content">75g</td>
+                                    </tr>
+                                </table>
+
+                                <p style="margin: 4rem 0;"><b>Benifits:</b>
+                                    Ashwagandha powder benefits include
+                                    stress reduction, enhanced immunity,
+                                    increased energy levels, improved
+                                    cognitive function, and overall
+                                    well-being. It promotes hormonal
+                                    balance, supports adrenal health, aids
+                                    in managing anxiety and depression,
+                                    boosts stamina, and may enhance muscle
+                                    strength and recovery. This adaptogenic
+                                    herb offers holistic support for mind
+                                    and body.
+                                </p>
+
+                            </div>
+
+                            <div class="content fourth">
+                                <button><i class="fa-sharp fa-solid fa-phone"></i>
+                                    Call</button>
+                                <button><i class="fa-regular fa-paper-plane"></i>
+                                    Enquiry</button>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="box openModalBtn card" id="image"
-                        data-name="category4">
-                        <div class="product-image">
-                            <img
-                                src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
-                                alt>
-
-                        </div>
-                        <p>Ayurvedic Patent Capsules</p>
+                <div class="box openModalBtn card" id="image" data-name="category6">
+                    <div class="product-image">
+                        <img src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
+                            alt>
 
                     </div>
+                    <p>Ayurvedic Patent Tablets</p>
 
-                    <div id="myModal4" class="modal">
-                        <div class="modal-content">
-                            <span class="close">&times;</span>
-                            <div class="product-info">
-                                <div class="content first">
+                </div>
 
-                                    <h1>Arjun Terminalia Arjuna Powder</h1>
+                <div id="myModal6" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="product-info">
+                            <div class="content first">
 
-                                </div>
-                                <div class="content second">
+                                <h1>Gokhru Tribulus Terrestris Powder</h1>
 
-                                    <div class="image">
-                                        <img
-                                            src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
-                                            alt>
-                                    </div>
+                            </div>
+                            <div class="content second">
 
-                                </div>
-                                <div class="content third">
-                                    <p><b>Description:</b> Arjun (Terminalia
-                                        arjuna) powder is derived from the bark
-                                        of the Arjuna tree, widely used in
-                                        Ayurveda. It's renowned for its
-                                        cardiovascular benefits, supporting
-                                        heart health by strengthening cardiac
-                                        muscles, regulating blood pressure, and
-                                        improving circulation. Additionally, it
-                                        aids in managing cholesterol levels and
-                                        promoting overall cardiovascular
-                                        wellness.
-                                    </p>
-                                    <table>
-                                        <tr>
-                                            <th
-                                                class="table-content">Packaging:</th>
-                                            <td
-                                                class="table-content">Packet</td>
-                                        </tr>
-                                        <tr>
-                                            <th class="table-content">Form:</th>
-                                            <td
-                                                class="table-content">Powder</td>
-                                        </tr>
-                                        <tr>
-                                            <th class="table-content">Pack
-                                                Size:</th>
-                                            <td class="table-content">75g</td>
-                                        </tr>
-                                    </table>
-
-                                    <p style="margin: 4rem 0;"><b>Benifits:</b>
-                                        Arjuna powder benefits include
-                                        cardiovascular support by strengthening
-                                        heart muscles and regulating blood
-                                        pressure. It aids in managing
-                                        cholesterol levels, exhibits antioxidant
-                                        and anti-inflammatory properties,
-                                        supports digestion, may help in diabetes
-                                        management, promotes wound healing, and
-                                        offers stress relief, contributing to
-                                        overall health and wellness.
-
-                                    </p>
-
+                                <div class="image">
+                                    <img src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
+                                        alt>
                                 </div>
 
-                                <div class="content fourth">
-                                    <button><i
-                                            class="fa-sharp fa-solid fa-phone"></i>
-                                        Call</button>
-                                    <button><i
-                                            class="fa-regular fa-paper-plane"></i>
-                                        Enquiry</button>
-                                </div>
+                            </div>
+                            <div class="content third">
+                                <p><b>Description:</b>
+                                    Gokhru (Tribulus Terrestris) powder is
+                                    derived from the fruit and roots of the
+                                    Gokhru plant, valued in Ayurveda for its
+                                    diverse health benefits. It's renowned
+                                    for promoting reproductive health,
+                                    increasing libido, improving urinary
+                                    tract function, boosting testosterone
+                                    levels, enhancing muscle strength, and
+                                    supporting overall vitality and
+                                    wellness.
+                                </p>
+                                <table>
+                                    <tr>
+                                        <th class="table-content">Packaging:</th>
+                                        <td class="table-content">Packet</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="table-content">Form:</th>
+                                        <td class="table-content">Powder</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="table-content">Pack
+                                            Size:</th>
+                                        <td class="table-content">75g</td>
+                                    </tr>
+                                </table>
+
+                                <p style="margin: 4rem 0;"><b>Benifits:</b>
+                                    Gokhru (Tribulus Terrestris) powder
+                                    enhances reproductive health, libido,
+                                    and urinary tract function. It boosts
+                                    testosterone levels, increases muscle
+                                    strength, and supports overall vitality
+                                    and wellness. Valued in Ayurveda, it
+                                    offers diverse health benefits, making
+                                    it a popular choice for promoting
+                                    well-being and vitality. </p>
+
+                            </div>
+
+                            <div class="content fourth">
+                                <button><i class="fa-sharp fa-solid fa-phone"></i>
+                                    Call</button>
+                                <button><i class="fa-regular fa-paper-plane"></i>
+                                    Enquiry</button>
                             </div>
                         </div>
                     </div>
-
-                    <div class="box openModalBtn card" id="image"
-                        data-name="category5">
-                        <div class="product-image">
-                            <img
-                                src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
-                                alt>
-
-                        </div>
-                        <p>Ayurvedic Patent Oil</p>
-
-                    </div>
-
-                    <div id="myModal5" class="modal">
-                        <div class="modal-content">
-                            <span class="close">&times;</span>
-                            <div class="product-info">
-                                <div class="content first">
-
-                                    <h1>Ashwagandha Withania Somnifera
-                                        Powder</h1>
-
-                                </div>
-                                <div class="content second">
-
-                                    <div class="image">
-                                        <img
-                                            src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
-                                            alt>
-                                    </div>
-
-                                </div>
-                                <div class="content third">
-                                    <p><b>Description:</b>
-                                        Ashwagandha (Withania somnifera) powder
-                                        is derived from the roots of the
-                                        Ashwagandha plant, a revered herb in
-                                        Ayurveda. It's known for its adaptogenic
-                                        properties, aiding the body in coping
-                                        with stress and promoting balance.
-                                        Ashwagandha powder also boosts immunity,
-                                        enhances energy levels, improves
-                                        cognitive function, and supports overall
-                                        well-being.
-
-                                    </p>
-                                    <table>
-                                        <tr>
-                                            <th
-                                                class="table-content">Packaging:</th>
-                                            <td
-                                                class="table-content">Packet</td>
-                                        </tr>
-                                        <tr>
-                                            <th class="table-content">Form:</th>
-                                            <td
-                                                class="table-content">Powder</td>
-                                        </tr>
-                                        <tr>
-                                            <th class="table-content">Pack
-                                                Size:</th>
-                                            <td class="table-content">75g</td>
-                                        </tr>
-                                    </table>
-
-                                    <p style="margin: 4rem 0;"><b>Benifits:</b>
-                                        Ashwagandha powder benefits include
-                                        stress reduction, enhanced immunity,
-                                        increased energy levels, improved
-                                        cognitive function, and overall
-                                        well-being. It promotes hormonal
-                                        balance, supports adrenal health, aids
-                                        in managing anxiety and depression,
-                                        boosts stamina, and may enhance muscle
-                                        strength and recovery. This adaptogenic
-                                        herb offers holistic support for mind
-                                        and body.
-                                    </p>
-
-                                </div>
-
-                                <div class="content fourth">
-                                    <button><i
-                                            class="fa-sharp fa-solid fa-phone"></i>
-                                        Call</button>
-                                    <button><i
-                                            class="fa-regular fa-paper-plane"></i>
-                                        Enquiry</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="box openModalBtn card" id="image"
-                        data-name="category6">
-                        <div class="product-image">
-                            <img
-                                src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
-                                alt>
-
-                        </div>
-                        <p>Ayurvedic Patent Tablets</p>
-
-                    </div>
-
-                    <div id="myModal6" class="modal">
-                        <div class="modal-content">
-                            <span class="close">&times;</span>
-                            <div class="product-info">
-                                <div class="content first">
-
-                                    <h1>Gokhru Tribulus Terrestris Powder</h1>
-
-                                </div>
-                                <div class="content second">
-
-                                    <div class="image">
-                                        <img
-                                            src="https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_800x.jpg?v=1676958103"
-                                            alt>
-                                    </div>
-
-                                </div>
-                                <div class="content third">
-                                    <p><b>Description:</b>
-                                        Gokhru (Tribulus Terrestris) powder is
-                                        derived from the fruit and roots of the
-                                        Gokhru plant, valued in Ayurveda for its
-                                        diverse health benefits. It's renowned
-                                        for promoting reproductive health,
-                                        increasing libido, improving urinary
-                                        tract function, boosting testosterone
-                                        levels, enhancing muscle strength, and
-                                        supporting overall vitality and
-                                        wellness.
-                                    </p>
-                                    <table>
-                                        <tr>
-                                            <th
-                                                class="table-content">Packaging:</th>
-                                            <td
-                                                class="table-content">Packet</td>
-                                        </tr>
-                                        <tr>
-                                            <th class="table-content">Form:</th>
-                                            <td
-                                                class="table-content">Powder</td>
-                                        </tr>
-                                        <tr>
-                                            <th class="table-content">Pack
-                                                Size:</th>
-                                            <td class="table-content">75g</td>
-                                        </tr>
-                                    </table>
-
-                                    <p style="margin: 4rem 0;"><b>Benifits:</b>
-                                        Gokhru (Tribulus Terrestris) powder
-                                        enhances reproductive health, libido,
-                                        and urinary tract function. It boosts
-                                        testosterone levels, increases muscle
-                                        strength, and supports overall vitality
-                                        and wellness. Valued in Ayurveda, it
-                                        offers diverse health benefits, making
-                                        it a popular choice for promoting
-                                        well-being and vitality. </p>
-
-                                </div>
-
-                                <div class="content fourth">
-                                    <button><i
-                                            class="fa-sharp fa-solid fa-phone"></i>
-                                        Call</button>
-                                    <button><i
-                                            class="fa-regular fa-paper-plane"></i>
-                                        Enquiry</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
 
             </div>
 
-        </section>
+        </div>
 
-        <footer class="footer">
-            <div class="container">
+    </section>
 
-                <div class="foot-panel2">
+    <footer class="footer">
+        <div class="container">
 
-                    <ul>
-                        <p
-                            style="font-size: 1.5rem; color:rgb(66, 64, 64) ; margin-bottom: 1rem;"><b>Vinayak
-                                Ayurveda Pvt. Ltd.</b></p>
-                        <li><a href="#">Vinayak Ayurveda Private Limited is an
-                                Ayurveda</a></li>
-                        <li><a href="#"> division of Ayurvedic and natural
-                                philosophy</a></li>
-                        <li><a href="#">Established in the years 2023</a></li>
+            <div class="foot-panel2">
 
-                    </ul>
+                <ul>
+                    <p style="font-size: 1.5rem; color:rgb(66, 64, 64) ; margin-bottom: 1rem;"><b>Vinayak
+                            Ayurveda Pvt. Ltd.</b></p>
+                    <li><a href="#">Vinayak Ayurveda Private Limited is an
+                            Ayurveda</a></li>
+                    <li><a href="#"> division of Ayurvedic and natural
+                            philosophy</a></li>
+                    <li><a href="#">Established in the years 2023</a></li>
 
-                    <ul>
-                        <p
-                            style="font-size: 1.5rem; color:rgb(66, 64, 64) ; margin-bottom: 1rem;"><b>Quick
-                                Links</b></p>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Product Range</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                </ul>
 
-                    </ul>
+                <ul>
+                    <p style="font-size: 1.5rem; color:rgb(66, 64, 64) ; margin-bottom: 1rem;"><b>Quick
+                            Links</b></p>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Product Range</a></li>
+                    <li><a href="#">Contact Us</a></li>
 
-                    <ul>
-                        <p
-                            style="font-size: 1.5rem; color:rgb(66, 64, 64) ; margin-bottom: 1rem;"><b>Product
-                                Range</b></p>
-                        <li><a
-                                href="Ayurvedic_Classical_Medicine.html">Classical
-                                Medicines</a></li>
-                        <li><a href="Ayurvedic_Classical_Medicine.html">Ayurved
-                                Syrups</a></li>
-                        <li><a href="Ayurvedic_Patent_Medicine.html">Patent
-                                Medicine</a></li>
-                        <li><a href="Ayurvedic_Classical_Medicine.html">Herbal
-                                Powder</a></li>
+                </ul>
 
-                    </ul>
+                <ul>
+                    <p style="font-size: 1.5rem; color:rgb(66, 64, 64) ; margin-bottom: 1rem;"><b>Product
+                            Range</b></p>
+                    <li><a href="Ayurvedic_Classical_Medicine.html">Classical
+                            Medicines</a></li>
+                    <li><a href="Ayurvedic_Classical_Medicine.html">Ayurved
+                            Syrups</a></li>
+                    <li><a href="Ayurvedic_Patent_Medicine.html">Patent
+                            Medicine</a></li>
+                    <li><a href="Ayurvedic_Classical_Medicine.html">Herbal
+                            Powder</a></li>
 
-                    <ul>
-                        <p
-                            style="font-size: 1.5rem; color:rgb(66, 64, 64) ; margin-bottom: 1rem;"><b>ContactUs</b></p>
-                        <li><a href="#">Vinayak Ayurveda Pvt. Ltd.</a></li>
-                        <li><a href="#">Plot No. 12 New DLF Industrial
-                                Area</a></li>
-                        <li><a href="#">Phase 1, Faridabad(Haryana)</a></li>
-                        <li><a href="#">Pin-121003</a></li>
-                        <li><a href="#">Mobile: +91 9870579944</a></li>
-                        <li><a href="#">Email-info@vinayakayurveda.in</a></li>
-                    </ul>
+                </ul>
 
-                </div>
+                <ul>
+                    <p style="font-size: 1.5rem; color:rgb(66, 64, 64) ; margin-bottom: 1rem;"><b>ContactUs</b></p>
+                    <li><a href="#">Vinayak Ayurveda Pvt. Ltd.</a></li>
+                    <li><a href="#">Plot No. 12 New DLF Industrial
+                            Area</a></li>
+                    <li><a href="#">Phase 1, Faridabad(Haryana)</a></li>
+                    <li><a href="#">Pin-121003</a></li>
+                    <li><a href="#">Mobile: +91 9870579944</a></li>
+                    <li><a href="#">Email-info@vinayakayurveda.in</a></li>
+                </ul>
 
-                <div class="foot-panel1">
-                    <a href="#"><i class="fa-solid fa-arrow-up"></i> Back to
-                        top <i class="fa-solid fa-arrow-up"></i></a>
-
-                </div>
-
-                <div class="foot-panel3">
-
-                    <ul class="social-links">
-                        <li><a href="#"><i
-                                    class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href="#"><i
-                                    class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="#"><i
-                                    class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="#"><i
-                                    class="fa-brands fa-whatsapp"></i></a></li>
-                    </ul>
-
-                </div>
             </div>
 
-        </footer>
+            <div class="foot-panel1">
+                <a href="#"><i class="fa-solid fa-arrow-up"></i> Back to
+                    top <i class="fa-solid fa-arrow-up"></i></a>
 
-        <script>
+            </div>
 
-        const filterButton = document.querySelectorAll(".filter-buttons button"); 
-        const filterablecards = document.querySelectorAll(".wrapper .card"); 
+            <div class="foot-panel3">
+
+                <ul class="social-links">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+
+        const filterButton = document.querySelectorAll(".filter-buttons button");
+        const filterablecards = document.querySelectorAll(".wrapper .card");
         console.log(filterablecards);
 
 
@@ -741,7 +680,7 @@
             filterablecards.forEach((card) => {
                 card.classList.add("hide");
 
-                if(card.dataset.name === e.target.dataset.name || e.target.dataset.name === "all"){
+                if (card.dataset.name === e.target.dataset.name || e.target.dataset.name === "all") {
                     card.classList.remove("hide");
                 }
 
@@ -754,14 +693,14 @@
         };
 
 
-        filterButton.forEach((button)=>{
+        filterButton.forEach((button) => {
             button.addEventListener("click", filtercards);
         });
 
     </script>
 
-    </body>
-    <script>
+</body>
+<script>
 
 
     // Get all the modal buttons
