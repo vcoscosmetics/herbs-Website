@@ -150,6 +150,7 @@ body {
 
 .navBar .container .nav-right ul li a:hover {
   color: #046b6a;
+  border-bottom: 2px solid black;
 }
 
 .dropdown {
