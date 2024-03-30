@@ -1,0 +1,608 @@
+@media screen and (max-width: 320px) {
+
+
+
+    .navBar .container .nav-right ul {
+        display: none;
+    }
+
+    .navBar .container .nav-left a {
+
+        margin-left: 0;
+    }
+
+
+
+    .navBar .nav-upper {
+        display: none;
+    }
+
+    .slideshow-container img {
+        height: 11rem !important;
+    }
+
+
+ 
+
+    .about-section .container .heading {
+
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+
+    .about-section .container .about-certfication-heading {
+
+        width: 90%;
+    }
+
+
+    .about-section .container hr {
+        width: 20rem;
+    }
+
+    .about-section .container .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .about-section .container .wrapper-container {
+        margin: 0;
+    }
+
+
+    .vision-section .container .wrapper .left {
+        margin-right: 0;
+    }
+
+
+    .vision-section .container .wrapper .right {
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .product-section .container .product-section-info {
+        text-align: left;
+        max-width: 90%;
+    }
+
+
+    .product-section .container .wrapper-container .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+
+
+
+    .product-section .container button {
+
+        padding: 1.5rem 4rem;
+
+    }
+
+
+
+
+    .certifiations .container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    .certifiations .container .images {
+        height: 6rem;
+        margin: 0.5rem;
+    }
+
+    .footer .foot-panel2 {
+        justify-content: left;
+        padding: 3rem 3rem;
+    }
+
+
+    .enquiry-button p {
+        font-size: 1rem;
+    }
+
+
+
+    .page-information {
+        margin: 0 1rem;
+        text-align: left;
+        margin-top: 1rem;
+    }
+
+    .about-us-main .grid-container{
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about-us-main .grid-container .image-section{
+        height: 15rem;
+    }
+
+
+    .about-us-main-2 .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+}
+
+
+@media (min-width: 321px) and (max-width: 380px) {
+
+
+    .navBar .container .nav-right ul {
+        display: none;
+    }
+
+    .navBar .container .nav-left a {
+
+        margin-left: 0;
+    }
+
+
+
+    .navBar .nav-upper {
+        display: none;
+    }
+
+
+    .slideshow-container img {
+        height: 11rem !important;
+    }
+
+
+ 
+    .about-section .container .heading {
+
+        margin-left: 7%;
+        margin-right: 5%;
+    }
+
+
+    .about-section .container .about-certfication-heading {
+
+        width: 90%;
+    }
+
+
+    .about-section .container hr {
+        width: 20rem;
+    }
+
+
+    .about-section .container .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .about-section .container .wrapper-container {
+        margin: 0;
+    }
+
+    .enquiry-button p {
+        font-size: 1rem;
+    }
+
+
+    .vision-section .container .wrapper .left {
+        margin-right: 0;
+        margin-left: 0.3rem;
+    }
+
+
+    .vision-section .container .wrapper .right {
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .product-section .container .product-section-info {
+        text-align: left;
+        max-width: 90%;
+        margin-left: 1rem;
+    }
+
+
+    .product-section .container .wrapper-container .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+
+    .product-section .container button {
+
+        padding: 1.5rem 4rem;
+
+    }
+
+
+    .certifiations .container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    .certifiations .container .images {
+        height: 7rem;
+        margin: 0.5rem;
+
+
+    }
+
+    .footer .foot-panel2 {
+        justify-content: left;
+        padding: 3rem 3rem;
+        display: block;
+    }
+
+
+
+    
+    .page-information {
+        margin: 0 1.5rem;
+        text-align: left;
+        margin-top: 1rem;
+    }
+
+    .about-us-main .grid-container{
+
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+
+    .about-us-main .grid-container .image-section{
+        height: 15rem;
+    }
+
+
+    .about-us-main-2 .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+}
+
+
+@media (min-width: 381px) and (max-width: 480px) {
+
+
+    .navBar .container .nav-right ul {
+        display: none;
+    }
+
+    .navBar .container .nav-left a {
+        margin-left: 0;
+    }
+
+
+
+    .navBar .nav-upper {
+        display: none;
+    }
+
+
+    .slideshow-container img {
+        height: 13rem !important;
+    }
+
+
+    .about-section .container .heading {
+        margin-left: 7% !important;
+        margin-right: 5% !important;
+    }
+
+
+    .about-section .container .about-certfication-heading {
+        width: 90%;
+    }
+
+
+    .about-section .container hr {
+        width: 20rem;
+    }
+
+
+    .about-section .container .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%  !important;
+
+    }
+
+    .about-section .container .wrapper-container {
+        margin: 0;
+    }
+
+
+
+    .about-section .container .wrapper .box .box-image{
+        height: 90% !important;
+    }
+
+    .enquiry-button p {
+        font-size: 1rem;
+    }
+
+
+    .vision-section .container .wrapper .left {
+        margin-right: 0;
+        margin-left: 0.3rem;
+    }
+
+
+    .vision-section .container .wrapper .right {
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .product-section .container .product-section-info {
+        text-align: left;
+        max-width: 90%;
+        margin-left: 1rem;
+    }
+
+
+    .product-section .container .wrapper-container .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+    .product-section .container button {
+        padding: 1.5rem 4rem;
+    }
+
+
+    .certifiations .container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    .certifiations .container .images {
+        height: 7rem;
+        margin: 0.5rem;
+    }
+
+    .footer .foot-panel2 {
+        justify-content: left;
+        padding: 3rem 3rem;
+        display: block;
+
+    }
+
+
+    .page-information {
+        margin: 0 1.5rem;
+        text-align: left;
+        margin-top: 1rem;
+    }
+
+    .about-us-main .grid-container{
+
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+
+    .about-us-main .grid-container .image-section{
+        height: 15rem;
+    }
+
+
+    .about-us-main-2 .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+}
+
+
+
+@media (min-width: 501px) and (max-width: 800px) {
+
+    html{
+        font-size: 90%;
+    }
+
+
+    
+    .navBar .container .nav-right ul {
+        display: none;
+    }
+
+    .navBar .container .nav-left a {
+        margin-left: 0;
+    }
+
+
+    .slideshow-container img {
+        height: 22rem;
+    }
+
+
+
+
+.service-types .container .wrapper .box {
+    max-width: 30rem;
+}
+
+
+.about-section .container .heading {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.about-section .container .about-certfication-heading {
+    width:90%;
+}
+
+
+
+.about-section .container .wrapper .box .box-image{
+    height: 100%;
+}
+
+.about-section .container .wrapper {
+    width: 100%;
+
+}
+
+
+.vision-section .container .wrapper .left{
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0.3rem;
+}
+
+
+.vision-section .container .wrapper .right {
+    height: 40%;
+    width: 100%;
+}
+
+
+.product-section .container .product-section-info{
+    max-width: 93%;
+    text-align: left;
+}
+
+.product-section .container .wrapper-container .wrapper{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.7rem;
+}
+.certifiations .container {
+
+    width: 100%;
+}
+
+
+.certifiations .container .images {
+    height: 8rem;
+}
+
+.footer .foot-panel2 {
+    justify-content: space-between;
+    padding: 3rem 1.5rem;
+}
+
+
+
+.page-information {
+    margin: 0 2rem;
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+
+.about-us-main .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    width: 90%;
+}
+
+.about-us-main .grid-container .image-section {
+    width: 55%;
+}
+
+.about-us-main .grid-container .info-section{
+    text-align: justify;
+}
+
+
+.about-us-main-2 .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    width: 90%;
+}
+
+
+.about-us-main-2 .grid-container .info-section {
+    text-align: justify;
+}
+
+
+
+.about-us-main-2 .grid-container .image-section {
+    width: 60%;
+    height: 21rem;
+   
+}
+
+}
+
+
+@media (min-width: 801px) and (max-width: 1100px){
+    html{
+        font-size: 90%;
+    }
+
+
+    .navBar .container .nav-right ul{
+        gap: 1.5rem;
+    }
+
+    
+.navBar .container .nav-right ul li a {
+    font-size:0.9rem;
+}
+
+
+.service-types .container .wrapper{
+    flex-wrap: nowrap;
+}
+
+.service-types .container .wrapper .box .image {
+    max-height: 9rem;
+}
+
+.about-section .container .heading {
+   
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+
+.vision-section .container .wrapper .right {
+    width: 17rem;
+    height: 60%;
+}
+
+
+.vision-section .container .wrapper .left {
+    width: 37rem;
+    margin-right: 2rem;
+}
+
+.product-section .container .product-section-info {
+    max-width: 80%;
+}
+
+
+.product-section .container .wrapper-container .wrapper {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.certifiations .container .images {
+    height: 9rem;
+}
+
+
+.footer .foot-panel2 {
+    justify-content: space-between;
+    padding: 3rem 2rem;
+}
+
+}
+
+
+@media (min-width: 1600px) {
+    html{
+        font-size: 135%;
+    }
+}
+
+

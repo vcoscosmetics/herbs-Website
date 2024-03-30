@@ -7,7 +7,7 @@
 
 p,
 a {
-  line-height: 2rem;
+  line-height: 1.8rem;
 }
 
 
@@ -17,12 +17,13 @@ html {
   transition: 0.3s;
 }
 
-body {
+body{
   font-family: "poppins";
   animation: transitionIn 0.7s;
 }
 
 @keyframes transitionIn {
+
   from {
     opacity: 0;
     transform: rotateX(-10deg);
@@ -34,15 +35,17 @@ body {
   }
 }
 
-.filter-buttons .active{
+.filter-buttons .active {
   background-color: grey !important;
   color: white;
 }
 
 
+
 .Page-container {
   margin: 0;
   padding: 0;
+  width: 100%;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -63,9 +66,6 @@ body {
   font-weight: 500;
   padding: 3rem 0;
   transform: rotate(270deg);
-
-
-
 }
 
 .box {
@@ -74,6 +74,8 @@ body {
 
 .navBar {
   width: 100%;
+  overflow: hidden;
+  
 }
 
 .navBar .nav-upper {
@@ -113,8 +115,10 @@ body {
   padding: 1.5rem 0;
   background-color: #f8f8f8;
   box-shadow: 0px 5px 20px 1px lightgray;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
+
 }
 
 .navBar .container .nav-right {
@@ -242,7 +246,7 @@ body {
 
 @media (max-width: 500px) {
   html {
-    font-size: 80%;
+    font-size: 80% !important;
   }
 }
 
@@ -273,20 +277,30 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 2rem 1rem;
-  max-width: 350px;
+  max-width: 22rem;
   margin-top: 2rem;
   border-radius: 1rem;
 }
 
-.service-types .container .wrapper .box:hover img {
+.service-types .container .wrapper .box:hover .image {
   scale: 1.03;
 }
 
+.service-types .container .wrapper .box .image {
+  position: relative;
+  max-width: 20rem;
+  max-height: 15rem;
+  transition: 0.3s ease;
+  margin-bottom: 1rem;
+
+}
+
 .service-types .container .wrapper .box .image img {
-  width: 20rem;
-  height: 15rem;
-  transition: 0.3s;
   border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .service-types .container .wrapper .box .box-info {
@@ -318,9 +332,9 @@ body {
   margin-top: 3rem;
 }
 
-.about-section .container .about-certfication-heading{
+.about-section .container .about-certfication-heading {
   width: 73%;
-  margin:auto;
+  margin: auto;
 }
 
 .about-section .container .heading {
@@ -365,7 +379,7 @@ body {
   transition: 0.5s;
 }
 
-.about-section .container h1{
+.about-section .container h1 {
   /* text-align: center; */
   font-weight: 400;
   font-size: 2.5rem;
@@ -374,10 +388,10 @@ body {
   color: #046b6a;
 }
 
-.about-section .container hr{
+.about-section .container hr {
   text-align: center;
   border: 2px solid grey;
-  margin-bottom: 3rem; 
+  margin-bottom: 3rem;
   height: 0;
   width: 25rem;
 
@@ -400,7 +414,7 @@ body {
 
 .about-section .container .wrapper .box .box-image img {
   transition: 0.7s;
-  object-fit:cover;
+  object-fit: cover;
   object-position: center;
   border-radius: 5px;
   height: 100%;
@@ -509,15 +523,16 @@ Vision Section */
 .product-section .container h2 {
   font-weight: 400;
   font-size: 2.5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   color: #046b6a;
 }
 
 .product-section .container .product-section-info {
-  text-align: center;
-  max-width: 70%;
+  text-align: left;
+  max-width: 75%;
   margin-bottom: 3rem;
-  font-size: 1rem;
+  font-size: 0.95rem;
+  color: #535151;
 }
 
 .product-section .container button {
@@ -633,7 +648,6 @@ a {
   list-style: none;
   line-height: 2rem;
   margin-top: 2rem;
-
   text-align: left;
 }
 
@@ -699,7 +713,7 @@ About Page */
 .about-us-main .grid-container .image-section {
   position: relative;
   width: 100%;
-  height: 50vh;
+  height: 18rem;
 }
 
 .about-us-main .grid-container .image-section .slider {
@@ -746,13 +760,12 @@ About Page */
   grid-template-columns: 2fr 1fr;
   gap: 2rem;
   width: 80%;
-  margin-top: 2rem;
 }
 
 .about-us-main-2 .grid-container .image-section {
   position: relative;
   width: 100%;
-  height: 50vh;
+  height: 18rem;
 }
 
 .about-us-main-2 .grid-container .image-section .slider1 {
@@ -760,7 +773,6 @@ About Page */
   width: 100%;
   height: 100%;
   position: absolute;
-  margin-top: 1rem;
 }
 
 .about-us-main-2 .grid-container .image-section .slider1 img {
@@ -791,8 +803,7 @@ About Page */
 .category {
   width: 20%;
   margin-top: 2rem;
-
-
+  
 }
 
 .hide {
@@ -803,6 +814,9 @@ About Page */
   display: flex !important;
   flex-direction: column;
   gap: 0 !important;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1rem;
 }
 
 
