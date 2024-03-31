@@ -180,7 +180,7 @@ iframe {
   .dropdown-nav {
     position: absolute;
     width: 20rem;
-    height: 15rem;
+    height: 100vh;
     margin-left: -100%;
     z-index: 11;
     background-color: rgb(220, 217, 217);
@@ -192,6 +192,7 @@ iframe {
   
   .dropdown-nav ul{
     list-style: none;
+    margin-top: 2rem;
   }
   .dropdown-nav  ul hr{
     width: 20rem;
@@ -402,7 +403,7 @@ iframe {
   .dropdown-nav {
     position: absolute;
     width: 20rem;
-    height: 15rem;
+    height: 100vh;
     margin-left: -100%;
     z-index: 11;
     background-color: rgb(220, 217, 217);
@@ -414,6 +415,7 @@ iframe {
   
   .dropdown-nav ul{
     list-style: none;
+    margin-top: 2rem;
   }
   .dropdown-nav  ul hr{
     width: 20rem;
@@ -620,7 +622,7 @@ iframe {
   .dropdown-nav {
     position: absolute;
     width: 20rem;
-    height: 15rem;
+    height: 100vh;
     margin-left: -100%;
     z-index: 11;
     background-color: rgb(220, 217, 217);
@@ -632,6 +634,7 @@ iframe {
   
   .dropdown-nav ul{
     list-style: none;
+    margin-top: 2rem;
   }
   .dropdown-nav  ul hr{
     width: 20rem;
@@ -829,7 +832,7 @@ display: none;
     position: absolute;
     display: block;
     width: 50%;
-    height: 15rem;
+    height: 100vh;
     margin-left: -100%;
     z-index: 11;
     background-color: rgb(220, 217, 217);
@@ -840,6 +843,7 @@ display: none;
   
   .dropdown-nav ul{
     list-style: none;
+    margin-top:2rem;
   }
   .dropdown-nav  ul hr{
     width: 20rem;
