@@ -181,10 +181,10 @@ iframe {
     position: absolute;
     width: 20rem;
     height: 15rem;
-    margin-right: -100%;
+    margin-left: -100%;
     z-index: 11;
     background-color: rgb(220, 217, 217);
-    right: 0;
+    left: 0;
     transition: 0.5s;
     display: block;
     
@@ -208,7 +208,7 @@ iframe {
   }
   
   .active-dropdown{
-    margin-right: 0;
+    margin-left: 0;
   
   }
   
@@ -403,10 +403,10 @@ iframe {
     position: absolute;
     width: 20rem;
     height: 15rem;
-    margin-right: -100%;
+    margin-left: -100%;
     z-index: 11;
     background-color: rgb(220, 217, 217);
-    right: 0;
+    left: 0;
     transition: 0.5s;
     display: block;
     
@@ -430,7 +430,7 @@ iframe {
   }
   
   .active-dropdown{
-    margin-right: 0;
+    margin-left: 0;
   
   }
   
@@ -621,10 +621,10 @@ iframe {
     position: absolute;
     width: 20rem;
     height: 15rem;
-    margin-right: -100%;
+    margin-left: -100%;
     z-index: 11;
     background-color: rgb(220, 217, 217);
-    right: 0;
+    left: 0;
     transition: 0.5s;
     display: block;
     
@@ -648,7 +648,7 @@ iframe {
   }
   
   .active-dropdown{
-    margin-right: 0;
+    margin-left: 0;
   
   }
   
@@ -828,12 +828,12 @@ display: none;
   .dropdown-nav {
     position: absolute;
     display: block;
-    width: 20rem;
+    width: 50%;
     height: 15rem;
-    margin-right: -100%;
+    margin-left: -100%;
     z-index: 11;
     background-color: rgb(220, 217, 217);
-    right: 0;
+    left: 0;
     transition: 0.5s;
     
   }
@@ -856,7 +856,7 @@ display: none;
   }
   
   .active-dropdown{
-    margin-right: 0;
+    margin-left: 0;
   
   }
   
