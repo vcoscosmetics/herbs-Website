@@ -832,6 +832,14 @@ display: none;}
 }
 
 
+@media(min-width: 1101px) and (max-width: 1400px){
+    html{
+        font-size: 80%;
+    }
+    
+}
+
+
 @media (min-width: 1600px) {
     html{
         font-size: 135%;
