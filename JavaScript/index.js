@@ -1,31 +1,3 @@
-let slideIndex = 0;
-const slides = document.querySelectorAll('.slider img');
-const totalSlides = slides.length;
-const slideInterval = 10000; // Change this value to adjust the slide interval (in milliseconds)
-
-function moveSlide(n) {
-  slideIndex += n;
-  if (slideIndex < 0) {
-    slideIndex = totalSlides - 1;
-  } else if (slideIndex >= totalSlides) {
-    slideIndex = 0;
-  }
-  updateSlider();
-}
-
-function updateSlider() {
-  const offset = -slideIndex * 100;
-  document.querySelector('.slider').style.transform = `translateX(${offset}%)`;
-}
-
-function autoSlide() {
-  moveSlide(1);
-}
-
-// Set interval to automatically slide
-setInterval(autoSlide, slideInterval);
-
-updateSlider();
 
 
 
@@ -51,5 +23,25 @@ modalBtns.forEach(function (btn, index) {
     }
   }
 });
+
+
+const btn = document.querySelector(".nav-btns");
+const menu = document.querySelector(".dropdown-nav");
+const links = document.querySelectorAll(".dropdown-nav-links");
+console.log(links);
+
+btn.addEventListener("click", (e) => {
+  menu.classList.toggle("active-dropdown");
+})
+
+links.forEach((link) => {
+  link.addEventListener("click", (e) => {
+    menu.classList.toggle("active-dropdown");
+})
+});
+
+
+
+
 
 

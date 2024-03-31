@@ -170,6 +170,48 @@ iframe {
     width: 100%;
 }
 
+.nav-btns{
+    display: block;
+  }
+
+
+
+
+  .dropdown-nav {
+    position: absolute;
+    width: 20rem;
+    height: 15rem;
+    margin-right: -100%;
+    z-index: 11;
+    background-color: rgb(220, 217, 217);
+    right: 0;
+    transition: 0.5s;
+    display: block;
+    
+  }
+  
+  .dropdown-nav ul{
+    list-style: none;
+  }
+  .dropdown-nav  ul hr{
+    width: 20rem;
+  }
+  
+  .dropdown-nav ul li{
+    margin-top: 1rem;
+    margin-left: 2rem;
+  
+  }
+  
+  .dropdown-nav ul li a{
+    color: black;
+  }
+  
+  .active-dropdown{
+    margin-right: 0;
+  
+  }
+  
 
 
 }
@@ -352,6 +394,47 @@ iframe {
 }
 
 
+.nav-btns{
+    display: block;
+  }
+
+
+  .dropdown-nav {
+    position: absolute;
+    width: 20rem;
+    height: 15rem;
+    margin-right: -100%;
+    z-index: 11;
+    background-color: rgb(220, 217, 217);
+    right: 0;
+    transition: 0.5s;
+    display: block;
+    
+  }
+  
+  .dropdown-nav ul{
+    list-style: none;
+  }
+  .dropdown-nav  ul hr{
+    width: 20rem;
+  }
+  
+  .dropdown-nav ul li{
+    margin-top: 1rem;
+    margin-left: 2rem;
+  
+  }
+  
+  .dropdown-nav ul li a{
+    color: black;
+  }
+  
+  .active-dropdown{
+    margin-right: 0;
+  
+  }
+  
+
 }
 
 
@@ -529,7 +612,46 @@ iframe {
     width: 100%;
 }
 
+.nav-btns{
+    display: block;
+  }
 
+
+  .dropdown-nav {
+    position: absolute;
+    width: 20rem;
+    height: 15rem;
+    margin-right: -100%;
+    z-index: 11;
+    background-color: rgb(220, 217, 217);
+    right: 0;
+    transition: 0.5s;
+    display: block;
+    
+  }
+  
+  .dropdown-nav ul{
+    list-style: none;
+  }
+  .dropdown-nav  ul hr{
+    width: 20rem;
+  }
+  
+  .dropdown-nav ul li{
+    margin-top: 1rem;
+    margin-left: 2rem;
+  
+  }
+  
+  .dropdown-nav ul li a{
+    color: black;
+  }
+  
+  .active-dropdown{
+    margin-right: 0;
+  
+  }
+  
 
 }
 
@@ -697,6 +819,47 @@ display: none;
     width: 100%;
 }
 
+
+.nav-btns{
+    display: block;
+  }
+
+
+  .dropdown-nav {
+    position: absolute;
+    display: block;
+    width: 20rem;
+    height: 15rem;
+    margin-right: -100%;
+    z-index: 11;
+    background-color: rgb(220, 217, 217);
+    right: 0;
+    transition: 0.5s;
+    
+  }
+  
+  .dropdown-nav ul{
+    list-style: none;
+  }
+  .dropdown-nav  ul hr{
+    width: 20rem;
+  }
+  
+  .dropdown-nav ul li{
+    margin-top: 1rem;
+    margin-left: 2rem;
+  
+  }
+  
+  .dropdown-nav ul li a{
+    color: black;
+  }
+  
+  .active-dropdown{
+    margin-right: 0;
+  
+  }
+  
 }
 
 
