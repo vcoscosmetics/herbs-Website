@@ -731,6 +731,8 @@ About Page */
 .about-us-main .grid-container .info-section {
   display: flex;
   flex-direction: column;
+  line-height: 1.8rem;
+  text-align: justify;
 }
 
 .about-us-main .grid-container .info-section h2 {
@@ -783,6 +785,9 @@ About Page */
 .about-us-main-2 .grid-container .info-section {
   display: flex;
   flex-direction: column;
+  line-height: 1.8rem;
+  text-align: justify;
+
 }
 
 .about-us-main-2 .grid-container .info-section h2 {
