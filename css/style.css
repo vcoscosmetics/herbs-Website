@@ -161,11 +161,14 @@ body {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
+
 }
 
 .navBar .container .nav-right ul li a:hover {
   color: #046b6a;
   border-bottom: 2px solid black;
+
+
 }
 
 
