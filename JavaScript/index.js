@@ -23,12 +23,9 @@ links.forEach((link) => {
 
 
 const loader = document.querySelector("#preloader");
-window.addEventListener('load', () =>{
-  setTimeout(()=>{
-    
+window.addEventListener('load', () =>{ 
       loader.style.display = "none";
 
-  },2000)
 })    
 
 
