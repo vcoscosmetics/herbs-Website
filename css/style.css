@@ -304,7 +304,7 @@ body {
 .service-types .container .wrapper .box .image {
   position: relative;
   max-width: 20rem;
-  max-height: 11rem;
+  height: 11rem;
   transition: 0.3s ease;
   margin-bottom: 1rem;
 }
