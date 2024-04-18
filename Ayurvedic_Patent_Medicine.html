@@ -2286,6 +2286,8 @@
             </div>
         </div>
     </footer>
+
+
     <script>
 
         const filterButton = document.querySelectorAll(".filter-buttons button");
@@ -2314,38 +2316,38 @@
         });
 
     </script>
-
-</body>
-<script>
+    <script>
 
 
-    // Get all the modal buttons
-    var modalBtns = document.querySelectorAll(".openModalBtn");
-
-    // Loop through the modal buttons and add click event listeners to each
-    modalBtns.forEach(function (btn, index) {
-        let modal = document.getElementById("myModal" + (index + 1));
-        let span = modal.getElementsByClassName("close")[0];
-
-        btn.onclick = function () {
-            modal.style.display = "block";
-        }
-
-        window.onclick = function (event) {
-            if (event.target == modal) {
+        // Get all the modal buttons
+        var modalBtns = document.querySelectorAll(".openModalBtn");
+    
+        // Loop through the modal buttons and add click event listeners to each
+        modalBtns.forEach(function (btn, index) {
+            let modal = document.getElementById("myModal" + (index + 1));
+            let span = modal.getElementsByClassName("close")[0];
+    
+            btn.onclick = function () {
+                modal.style.display = "block";
+            }
+    
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+    
+            span.onclick = function () {
                 modal.style.display = "none";
             }
-        }
+    
+    
+        });
+    </script>
 
-        span.onclick = function () {
-            modal.style.display = "none";
-        }
-
-
-    });
-</script>
 
 <script src="JavaScript/index.js"></script>
 
 
+</body>
 </html>
