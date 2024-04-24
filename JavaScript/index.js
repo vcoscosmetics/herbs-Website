@@ -13,15 +13,15 @@ btn.addEventListener("click", (e) => {
 links.forEach((link) => {
   link.addEventListener("click", (e) => {
     menu.classList.toggle("active-dropdown");
-})
+  })
 });
 
 
 const loader = document.querySelector("#preloader");
-window.addEventListener('load', () =>{ 
-      loader.style.display = "none";
+window.addEventListener('load', () => {
+  loader.style.display = "none";
 
-})    
+})
 
 
 
