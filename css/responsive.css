@@ -454,7 +454,6 @@
     }
 
 
-
     .navBar .nav-upper {
         display: none;
     }
@@ -496,6 +495,8 @@
     .about-section .container .wrapper .box .box-image {
         height: 90% !important;
     }
+
+   
 
     .enquiry-button p {
         font-size: 1rem;
